@@ -1,0 +1,34 @@
+body {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+#issue {
+	width: fit-content;
+}
+
+#comment {
+	height: fit-content;
+	resize: none;
+}
+
+#submitButton {
+	width: fit-content;
+}
+
+a {
+	width: fit-content;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	font-weight: bold;
+}

@@ -1,0 +1,34 @@
+html { /* Making all elements bigger */
+	font-size: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+p, ul {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	font-size: 2.5rem;
+	text-decoration: underline 0.1rem;
+}
+
+ul {
+	font-size: 1.5rem;
+	padding-left: 1.5rem;
+}
+
+a {
+	width: fit-content;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	font-weight: bold;
+}

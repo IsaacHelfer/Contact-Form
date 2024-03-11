@@ -1,0 +1,79 @@
+body {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+label { /* Search By Label */
+	padding-right: 0.2rem;
+}
+
+#option {
+	width: fit-content;
+}
+
+#text {
+	width: 35%;
+}
+
+#submit {
+	width: fit-content;
+}
+
+#reset {
+	text-decoration: none;
+}
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	width: fit-content;
+	padding: 1rem;
+}
+
+tr td:first-child { /* Id Table Data */
+	text-align: center;
+}
+
+table tr:nth-child(even) {
+	background-color: #dfdfdf;
+}
+
+p {
+	color: red;
+}
+
+#edit, #delete {
+	display: flex;
+	justify-content: space-between;
+	color: blue;
+	text-decoration: none;
+}
+
+#edit:hover, #delete:hover {
+	text-decoration: underline;
+}
+
+#edit {
+	padding-bottom: 0.5rem;
+}
+
+#delete:hover {
+	cursor: pointer;
+}
+
+#backForm {
+	text-decoration: none;
+	color: black;
+}
+
+#backForm:hover {
+	font-weight: bold;
+}
